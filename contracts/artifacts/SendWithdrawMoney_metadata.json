@@ -40,7 +40,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "withdrawAll",
+				"name": "withdrawAllTo",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -87,11 +87,11 @@
 	},
 	"sources": {
 		"contracts/sendMoney.sol": {
-			"keccak256": "0x60af0f8ef7a0b6125b1d6e2e58acbfe959386f29a43575e2e298d6cf64248c60",
+			"keccak256": "0x1011af0e03b632f068b9e4bb3f36b0b45e050797df6f389b09a1d72618cc7a40",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e3ee641f237f607ed18c8f19b63c0228ba8bf396bc5642a27525c27401e47b02",
-				"dweb:/ipfs/QmYEw6fhYdaouuzxPck84bozgSdsiXLEa1x2usyHPT1wkc"
+				"bzz-raw://1416128d7a0ddbf24a27ec508e5bcee61474a6b06a4ea12eeecad476ad4e0787",
+				"dweb:/ipfs/QmWwAPZWqdssSA4PFzdfrpYtPVTAY4BTQgjbzYRhBCooCu"
 			]
 		}
 	},
