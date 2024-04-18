@@ -7,6 +7,7 @@ contract messenger {
     constructor() {
         owner = msg.sender;
     }
+    //update the message
     function updateTheMessage(string memory _newMessage) public {
         if(msg.sender == owner) {
             theMessage = _newMessage;
