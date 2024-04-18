@@ -104,11 +104,11 @@
 	},
 	"sources": {
 		"contracts/securityMappings.sol": {
-			"keccak256": "0x0732b5385bc697cb2ca9674adad204ddfb57f793e09da049bcf4239aabe0d85d",
+			"keccak256": "0xfb3832778e9840b9af4d87d25a8a423389b2e4fece4db2bd598ef540242d75f8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e58802483646c6f404b1d81807225c534742ca1b0e77e4a1d530297c3a181de3",
-				"dweb:/ipfs/QmVP18mgDBm8PyWnKWNadKJQYZmT2mAkTMYqRwRqK1SY5r"
+				"bzz-raw://0a0e7b190456d7a1b3ef7fedf87aaafd69a6ddee772b36e2e7def5a886351f83",
+				"dweb:/ipfs/QmewaHo3QM8ffgQR1mKAVhkG6CBKXXsyopu3ByeJF1XGJm"
 			]
 		}
 	},
