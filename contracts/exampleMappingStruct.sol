@@ -19,11 +19,11 @@ contract MappingsStructExample {
 
     mapping(address => Balance) public balanceReceived;
 
-
+//getting the Balance 
     function getBalance(address _addr) public view returns(uint) {
         return balanceReceived[_addr].totalBalance;
     }
-
+//deposit the money
     function depositMoney() public payable {
         balanceReceived[msg.sender].totalBalance += msg.value;
 
@@ -31,7 +31,7 @@ contract MappingsStructExample {
         balanceReceived[msg.sender].deposits[balanceReceived[msg.sender].numDeposits] = deposit;
         balanceReceived[msg.sender].numDeposits++;
     }
-
+//withdraw the money
     function withdrawMoney(address payable _to, uint _amount) public {
         balanceReceived[msg.sender].totalBalance -= _amount; //reduce the balance by the amount ot withdraw
 
